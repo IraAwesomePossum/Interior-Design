@@ -6,4 +6,24 @@
 
 .nav {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  // grid-template-columns: repeat(auto-fit, mimax(15rem, 1fr));
+  // grid-gap: 2rem;
+  // align-items: center;
+
+  &__link:link,
+  &__link:visited {
+    font-size: 1.7rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: $font-display;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+  }
 }

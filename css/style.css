@@ -203,4 +203,18 @@ body {
   padding: 8rem; }
 
 .nav {
-  list-style: none; }
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .nav__link:link, .nav__link:visited {
+    font-size: 1.7rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row; }
